@@ -33,7 +33,6 @@ q:after {
     content: none;
 }
 table {
-    border-collapse: collapse;
     border-spacing: 0;
 }
 
@@ -110,7 +109,7 @@ nav ul {
     padding: 0 35px;
 }
 /*=========== MAIN ================*/
-.main {
+.main>.wrapper {
     display: flex;
 }
 
@@ -236,9 +235,81 @@ article h3 {
     margin: 0 auto;
 }
 
+/*========== ASIDE ============*/
+aside.right-sidebar {
+    padding-top: 78px;
+    padding-left: 65px;
+}
+
+.search-box {
+    width: 100%;
+    position: relative;
+}
+
+.search-box label {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    z-index: 100;
+}
+
+.search-box input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px 10px 8px 30px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    font-family: Roboto;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.calendar-widget {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.calendar-widget .current-month {
+    color: #4d4d4d;
+}
 
 
+.calendar-widget table {
+    width: 100%;
+}
 
+.calendar-widget table th {
+    height: 26px;
+    background-color: #e7e7e7;
+    color: #888;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.calendar-widget table td {
+    height: 33px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #e5e5e5;
+    color:#e5e5e5;
+}
+
+
+.calendar-widget .calendar-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 38px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.calendar-prev, .calendar-next {
+    color: #e5e5e5;
+}
 
 
 
