@@ -103,11 +103,17 @@ nav ul {
 
 .page-header nav a {
     font-family: Proxima;
+    font-size: 20px;
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 35px;
 }
+
+.page-header nav a:hover {
+    color: #fff;
+}
+
 /*=========== MAIN ================*/
 .main>.wrapper {
     display: flex;
@@ -379,7 +385,7 @@ aside.right-sidebar {
 .copy {
     font-family: Proxima;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 18px;
     color: #a78613
 }
 
@@ -403,8 +409,20 @@ aside.right-sidebar {
     margin-left: 10px;
 }
 
+.socials a:hover {
+    background-color: #000;
+}
+
+.footer-nav {
+    font-size: 18px;
+}
+
 .footer-nav a {
     text-decoration: none;
     color: #000;
     padding: 0 18px;
+}
+
+.footer-nav a:hover {
+    color: #fff;
 }
