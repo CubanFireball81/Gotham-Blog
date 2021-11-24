@@ -276,6 +276,9 @@ aside.right-sidebar {
 	font-size: 14px;
 	box-sizing: border-box;
 }
+#tcaption {
+	color:#4d4d4d;
+}
 .calendar-widget {
 	border: 1px solid #e5e5e5;
 	width: 100%;
@@ -361,6 +364,7 @@ aside.right-sidebar {
 }
 .page-footer>.wrapper>* {
 	width: 33.33%;
+	padding-top: 10px;
 }
 .copy {
 	font-family: Proxima;
